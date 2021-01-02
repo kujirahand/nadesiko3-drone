@@ -1,0 +1,22 @@
+{
+  "name": "nadesiko3-drone",
+  "version": "0.1.0",
+  "description": "drone library for nadesiko3",
+  "main": "plugin_drone.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kujirahand/nadesiko3-drone.git"
+  },
+  "author": "kujirahand <web@kujirahand.com> (https://kujirahand.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kujirahand/nadesiko3-drone/issues"
+  },
+  "homepage": "https://github.com/kujirahand/nadesiko3-drone#readme",
+  "dependencies": {
+    "tello-drone": "^3.0.6"
+  }
+}
