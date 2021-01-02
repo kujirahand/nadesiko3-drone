@@ -2,7 +2,7 @@
   "name": "nadesiko3-drone",
   "version": "0.1.0",
   "description": "drone library for nadesiko3",
-  "main": "plugin_drone.js",
+  "main": "nadesiko3-drone.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
