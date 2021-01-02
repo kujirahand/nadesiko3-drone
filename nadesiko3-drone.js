@@ -43,7 +43,7 @@ const PluginDrone = {
   'ドローン緊急停止': { // @ドローン緊急停止する // @どろーんきんきゅうていし
     type: 'func',
     josi: [],
-    fn: function (cmd, sys) {
+    fn: function (sys) {
       sys.__DroneCheckInit()
       sys.__DroneActive.forceSend('emergency')
     }
