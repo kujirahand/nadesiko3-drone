@@ -34,7 +34,7 @@ const PluginDrone = {
       // set send
       drone.on("send", (err, length) => {
         if (err) { // エラーが起きた時
-          console.log(err);
+          console.log('[error]', err);
         }
       });
       return drone
@@ -96,7 +96,7 @@ const PluginDrone = {
       sys.__DroneActive.forceSend('land')
     }
   },
-  'ドローン移動': { // @ドローンを方向(上下左右前後)にN(20-500)だけ動かす // @どろーんいどう
+  'ドローン移動': { // @ドローンを方向(上下左右前後)にN(20-500cm)だけ動かす // @どろーんいどう
     type: 'func',
     josi: [['に','へ'],['だけ']],
     fn: function (dir, n, sys) {
