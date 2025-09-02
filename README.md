@@ -29,6 +29,9 @@ cnako3 updown.nako3
 
 ブラウザを開いて、リンクをクリックするとドローンを操作できます。
 
+## 使える命令の一覧
+
+- [ドローンの命令一覧](https://nadesi.com/v3/doc/index.php?nadesiko3-drone)
 
 ## (参考)
 
@@ -37,5 +40,3 @@ cnako3 updown.nako3
 ### Telloコマンドの詳しい説明
 
 - [tello api doc](https://dl-cdn.ryzerobotics.com/downloads/tello/20180910/Tello%20SDK%20Documentation%20EN_1.3.pdf)
- 
- 
